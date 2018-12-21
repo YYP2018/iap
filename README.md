@@ -33,7 +33,8 @@ App:
 
 1. 流程图
 
-```flow
+```mermaid 
+graph TD
 
 start=>start: 开始
 initialBoot=>operation: 初始化时钟和CAN1通信
